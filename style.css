@@ -14,10 +14,14 @@
 ========================= */
 
 body {
-  background: #ffffff;
+  background:linear-gradient(135deg,
+  #ffd6e7 0%,
+  #d6f4ff 50%,
+  #fff4b8 100%);
   color: #222;
-  font-family: "Lora", serif;
+   font-family: "Lobster Two", sans-serif;
   line-height: 1.8;
+  overflow-x: hidden;
 }
 
 
@@ -57,7 +61,7 @@ body {
 
 
 .hero h1 {
-  font-family: "Playfair Display", serif;
+  font-family: "Croissant One", serif;
   font-size: 3rem;
   font-weight: 600;
   margin-bottom: 15px;
@@ -114,10 +118,15 @@ body {
   margin-top: 70px;
 }
 
+strong {
+  color: #222;
+  font-family: "Croissant One", serif;
+  font-size: 0.98rem;
+}
 
 .tributes h2 {
   text-align: center;
-  font-family: "Playfair Display", serif;
+  font-family: "Croissant One", serif;
   font-size: 2rem;
   margin-bottom: 40px;
 }
@@ -128,7 +137,12 @@ body {
 ========================= */
 
 .tribute-card {
-  background: #fff;
+  background: linear-gradient(
+    135deg,
+    #ffd6ef 0%,
+    #d6f4ff 50%,
+    #fff4b8 100%
+  )
   border: 1px solid #ddd;
   border-radius: 15px;
   padding: 40px;
@@ -171,7 +185,7 @@ body {
 .tribute-text h2,
 .tribute-text h3 {
 
-  font-family: "Playfair Display", serif;
+  font-family: "Croissant One", serif;
 
   text-align: center;
 
@@ -242,7 +256,7 @@ body {
 
   text-align: center;
 
-  font-family: "Playfair Display", serif;
+  font-family: "Croissant One", serif;
 
   font-size: 2rem;
 
