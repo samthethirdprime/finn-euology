@@ -25,6 +25,20 @@ body {
    CONTAINER
 ========================= */
 
+.pdf{
+  display: inline-block;
+  margin-top:30px;
+  padding: 12px 25px;
+  background: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+
+}
+.pdf:hover{
+  opacity:0.8;
+}
+
 .container {
   max-width: 950px;
   margin: 0 auto;
